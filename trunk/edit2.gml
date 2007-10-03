@@ -14,6 +14,9 @@
       <tbody repeat="true">
         <tr>
           <td><gm:text ref="atom:title"/></td>
+          <td><gm:textarea ref="atom:description"/></td>
+          <td><gm:number ref="atom:nlon"/></td>
+          <td><gm:number ref="atom:nlat"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>

@@ -1,4 +1,4 @@
-<gm:page title="My App" authenticate="false">
+<gm:page title="World Protected Areas" authenticate="false">
 
   Hello Again
 

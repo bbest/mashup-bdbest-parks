@@ -1,4 +1,4 @@
-<gm:page title="Edit Park Points" authenticate="false">
+<gm:page title="Edit Park Points" authenticate="true">
 
   <!-- Here we create the list to display the data we save in 
         the $app/pts feed -->
@@ -8,7 +8,6 @@
   <!-- Here we create the template that contains edit
         and delete buttons. We also specify a create button to add
         data to the feed. -->
-  
 
   <gm:template id="ptsTemplate">
     <table>

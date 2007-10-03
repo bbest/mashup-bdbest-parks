@@ -24,7 +24,7 @@
         <tr>
           <td><gm:text ref="atom:title"/></td>
           <td><gm:textarea ref="atom:description"/></td>
-          <td><gm:date ref="atom:datemod"/></td>
+          <td><gm:date ref="gd:when/@startTime"/></td>
           <td><gm:number ref="atom:lat"/></td>
           <td><gm:number ref="atom:lon"/></td>
           <td><gm:editButtons /></td>

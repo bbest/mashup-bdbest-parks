@@ -1,4 +1,4 @@
-<gm:page title="Edit Park Points" authenticate="true">
+<gm:page title="Edit Park Points" authenticate="false">
 
   <!-- Here we create the list to display the data we save in 
         the $app/pts feed -->
@@ -15,8 +15,6 @@
         <tr>
           <td><gm:text ref="atom:title"/></td>
           <td><gm:textarea ref="atom:description"/></td>
-          <td><gm:number ref="geo:lon"/></td>
-          <td><gm:number ref="geo:lat"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>

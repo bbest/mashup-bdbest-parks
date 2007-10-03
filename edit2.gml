@@ -11,22 +11,9 @@
 
   <gm:template id="ptsTemplate">
     <table>
-      <thead>
-        <tr>
-          <td>title</td>
-          <td>description</td>
-          <td>datemod</td>
-          <td>lat</td>
-          <td>lon</td>
-        </tr>
-      </thead>
       <tbody repeat="true">
         <tr>
           <td><gm:text ref="atom:title"/></td>
-          <td><gm:textarea ref="atom:description"/></td>
-          <td><gm:date ref="gd:when/@startTime"/></td>
-          <td><gm:number ref="atom:lat"/></td>
-          <td><gm:number ref="atom:lon"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>

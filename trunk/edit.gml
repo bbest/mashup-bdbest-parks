@@ -11,6 +11,17 @@
 
   <gm:template id="ptsTemplate">
     <table>
+      <thead>
+        <tr>
+          <td>title</td>
+          <td>description</td>
+          <td>datemod</td>
+          <td>image</td>
+          <td>link</td>
+          <td>lat</td>
+          <td>lon</td>
+        </tr>
+      </thead>
       <tbody repeat="true">
         <tr>
           <td><gm:text ref="atom:title"/></td>
@@ -19,7 +30,7 @@
           <td><gm:image ref="atom:image"/></td>
           <td><gm:link ref="atom:link"/></td>
           <td><gm:number ref="atom:lat"/></td>
-          <td><gm:number ref="atom:lon"/></td>                    
+          <td><gm:number ref="atom:lon"/></td>
           <td><gm:editButtons /></td>
         </tr>
       </tbody>
